@@ -8,7 +8,6 @@ Before running the project, you must install and start memcached by running the 
 - `brew install memcached`
 - `brew services start memcached`
 
-
 ## How to run
 
 To run the project, follow these steps:
@@ -24,6 +23,17 @@ To run the project, follow these steps:
 3. Navigate to the frontend directory and run the following commands:
     - `npm install`
     - `npm start`
+
+## How to use
+
+### Backend
+
+- To view all projects or add a new one, go to `http://localhost:8000/projects/`
+- To view, update, or delete a specific project, go to `http://localhost:8000/projects/<id>`
+
+### Frontend
+
+- To view all projects, go to `http://localhost:3000/projects/`
 
 ## Next steps
 
